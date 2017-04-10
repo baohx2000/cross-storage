@@ -1,5 +1,5 @@
 /**
- * cross-storage - Cross domain local storage
+ * @b2k/cross-storage - Cross domain local storage (forked)
  *
  * @version   1.0.0
  * @link      https://github.com/zendesk/cross-storage
@@ -8,7 +8,11 @@
  * @license   Apache-2.0
  */
 
-;(function(root) {
+
+var document = typeof document === 'undefined' ? {} : document;
+var window = typeof window === 'undefined' ? {} : window;
+
+(function(root) {
   /**
    * Constructs a new cross storage client given the url to a hub. By default,
    * an iframe is created within the document body that points to the url. It

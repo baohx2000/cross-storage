@@ -1,7 +1,7 @@
 {
-  "name": "cross-storage",
+  "name": "@b2k/cross-storage",
   "version": "1.0.0",
-  "description": "Cross domain local storage",
+  "description": "Cross domain local storage (forked)",
   "keywords": [
     "local",
     "storage",
@@ -14,7 +14,7 @@
   "homepage": "https://github.com/zendesk/cross-storage",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zendesk/cross-storage.git"
+    "url": "https://github.com/baohx2000/cross-storage.git"
   },
   "devDependencies": {
     "connect": "^2.25.7",

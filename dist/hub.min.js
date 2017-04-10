@@ -1,5 +1,5 @@
 /**
- * cross-storage - Cross domain local storage
+ * @b2k/cross-storage - Cross domain local storage (forked)
  *
  * @version   1.0.0
  * @link      https://github.com/zendesk/cross-storage
